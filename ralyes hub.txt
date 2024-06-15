@@ -1,0 +1,14 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create("ralye23's pro hub", -- Name here.
+
+---Tabs---
+
+local tab1 = window:CreateTab("AutoFarm")
+
+---buttons---
+
+tab1:CreateButton("Universal aimbot", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Y7Fv6BYd"))()
+
+
+tab1:CreateWarning("Warning this Script is Not Intended for Harmful Purposes and we aren't Responsible for you. by using this Script you accept our Terms and Conditions.")
